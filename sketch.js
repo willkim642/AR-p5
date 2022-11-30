@@ -34,7 +34,7 @@ function setup() {
 
   // grab a reference to our two markers that we set up on the HTML side (connect to it using its 'id')
   markerHiro = world.getMarker('hiro');
-
+  noStroke();
 }
 
 
@@ -70,7 +70,7 @@ function draw() {
             currColor = 0;
         }
     //fill(255);
-    square(hPos.x, hPos.y, 25);
+    square(hPos.x, hPos.y, 35);
   
   }
 
