@@ -70,7 +70,7 @@ function draw() {
             currColor = 0;
         }
     //fill(255);
-    square(hPos.x, hPos.y, 35);
+    square(hPos.x, hPos.y, 65);
   
   }
 
